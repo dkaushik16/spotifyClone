@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>spotifyDk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    
+    <nav class="nav">
+      <ul>
+         <li class="logo"><img src="./images/logo.png" width="45"><span>Spotifi</span></li>
+         <li>Home</li>
+         <li>About</li>
+        </ul>
+
+    </nav>
+    <div class="container">
+        <div class="songlist"> 
+            <h1>Classic Hits !!</h1>
+            <div class="songitemcontainer">
+                <div class="songitem">
+                    <img alt="1">
+                    <span class="songname">Whatever It Takes</span>
+                    <span class="songlistplay"><span class="timestamp">3:40<i id="0" class="fa-solid  fa-circle-play img1 songplay bt"></i></span></span>
+
+                </div>
+                <div class="songitem">
+                    <img alt="2">
+                    <span class="songname">Believer</span>
+                    <span class="songlistplay"><span class="timestamp">3:24<i id="1" class="fa-solid  fa-circle-play img1 songplay bt"></i></span></span>
+
+                </div>
+                <div class="songitem">
+                    <img  alt="3">
+                    <span class="songname">Thunder</span>
+                    <span class="songlistplay"><span class="timestamp">3:24<i id="2" class="fa-solid  fa-circle-play img1 songplay bt"></i></span></span>
+
+                </div>
+                <div class="songitem">
+                    <img  alt="4">
+                    <span class="songname">Dil Dhadakne Do</span>
+                    <span class="songlistplay"><span class="timestamp">3:52<i id="3" class="fa-solid  fa-circle-play img1 songplay bt"></i></span></span>
+
+                </div>
+                <div class="songitem">
+                    <img  alt="5">
+                    <span class="songname">Senorita</span>
+                    <span class="songlistplay"><span class="timestamp">3:51<i id="4" class="fa-solid  fa-circle-play img1 songplay bt"></i></span></span>
+
+                </div>
+                <div class="songitem">
+                    <img  alt="6">
+                    <span class="songname">Dildara</span>
+                    <span class="songlistplay"><span class="timestamp">4:09<i id="5" class="fa-solid  fa-circle-play img1 songplay bt"></i></span></span>
+
+                </div>
+                <div class="songitem">
+                    <img alt="7">
+                    <span class="songname">Tumse hi</span>
+                    <span class="songlistplay"><span class="timestamp">5:23<i id="6" class="fa-solid  fa-circle-play img1 songplay bt"></i></span></span>
+
+                </div> 
+            </div>
+
+        </div>
+        <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" id="myprogressbar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa-sharp fa-3x fa-solid fa-backward-step img1" id="previous"></i>
+            <i class="fa-solid fa-3x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-sharp fa-3x fa-solid fa-forward-step img1" id="next"></i>  
+        </div>
+        <div class="songinfo">
+            <img src="./images/playing.gif" width="42px" id="gif">
+            <span id="mastersong"> Whatever it takes-Imagine Dragons</span>
+        </div>
+    </div>
+ 
+  
+<script src="https://kit.fontawesome.com/3e3ea06ebf.js" crossorigin="anonymous"></script>       
+<script src="index.js"></script>
+
+</body>
+</html>
